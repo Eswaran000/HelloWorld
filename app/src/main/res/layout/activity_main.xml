@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/main_activity_logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/main_activity_logo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_activity_logo"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 1"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 2"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 3"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 4"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 5"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 6"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 7"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 8"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 9"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 10"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 11"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Button 12"
+                android:drawableLeft="@drawable/main_activity_logo"
+                android:background="@drawable/button_bg"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
